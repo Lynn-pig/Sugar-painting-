@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品展示 - 甜蜜非遗——糖画</title>
+  <link rel="stylesheet" href="styles main.css">
+  <link rel="stylesheet" href="styles responsive.css">
+</head>
+<body>
+  <header>
+      <div class="container">
+          <div class="logo">
+              <img src="images/logo.jpg" alt="非遗糖画">
+              <h1>甜蜜非遗——糖画</h1>
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="index.html">首页</a></li>
+                  <li><a href="about.html">关于糖画</a></li>
+                  <li><a href="history.html">历史渊源</a></li>
+                  <li><a href="techniques.html">制作技艺</a></li>
+                  <li><a href="artists.html">传承人</a></li>
+                  <li class="active"><a href="gallery.html">作品展示</a></li>
+              </ul>
+          </nav>
+          <div class="mobile-menu-btn">
+              <i class="fas fa-bars"></i>
+          </div>
+      </div>
+  </header>
+    
+    <section class="page-header gallery-header">
+        <div class="container">
+            <h2>作品展示</h2>
+            <p>欣赏精美的糖画艺术作品</p>
+        </div>
+    </section>
+
+    <section class="breadcrumb">
+        <div class="container">
+            <a href="index.html">首页</a> &raquo; <span>作品展示</span>
+        </div>
+    </section>
+
+<section class="main-content">
+        <div class="container">
+            <div class="content-full">
+				<div class="traditional-header">
+				    <h2 class="chinese-title">
+				        <span class="title-icon"></span>
+				        作品展示
+						<div class="title-decoration"></div>
+				    </h2>
+				    <div class="header-pattern"></div>
+				</div>
+				<div class="art-content">
+                <!-- 画廊筛选 -->
+                <div class="gallery-filter">
+                    <button class="filter-btn active" data-filter="all">全部作品</button>
+                    <button class="filter-btn" data-filter="animal">动物系列</button>
+                    <button class="filter-btn" data-filter="character">人物系列</button>
+                    <button class="filter-btn" data-filter="flower">花鸟系列</button>
+                    <button class="filter-btn" data-filter="modern">现代创意</button>
+                </div>
+
+                <!-- 画廊容器 -->
+                <div class="gallery-container" id="lightgallery">
+                    <!-- 动物系列 -->
+                    <div class="gallery-item" data-src="images/gallery-1.jpg" data-filter="animal">
+                        <div class="frame">
+                            <img src="images/gallery-1.jpg">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>十二生肖 - 龙</h3>
+                            <p>十二生肖系列</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-src="images/gallery-2-lg.jpg" data-filter="animal">
+                        <div class="frame">
+                            <img src="images/gallery-2.jpg">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>孔雀开屏</h3>
+                            <p>吉祥动物系列</p>
+                        </div>
+                    </div>
+
+                    <!-- 人物系列 -->
+                    <div class="gallery-item" data-src="images/gallery-3-lg.jpg" data-filter="character">
+                        <div class="frame">
+                            <img src="images/gallery-3.jpg">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>关公</h3>
+                            <p>历史人物系列</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-src="images/gallery-4-lg.jpg" data-filter="character">
+                        <div class="frame">
+                            <img src="images/gallery-4.JPG">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>孙悟空</h3>
+                            <p>神话人物系列</p>
+                        </div>
+                    </div>
+
+                    <!-- 花鸟系列 -->
+                    <div class="gallery-item" data-src="images/gallery-5-lg.jpg" data-filter="flower">
+                        <div class="frame">
+                            <img src="images/gallery-5.jpg">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>喜鹊登梅</h3>
+                            <p>传统吉祥图案</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-src="images/gallery-6-lg.jpg" data-filter="flower">
+                        <div class="frame">
+                            <img src="images/gallery-6.jpg">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>荷花</h3>
+                            <p>四季花卉系列</p>
+                        </div>
+                    </div>
+
+                    <!-- 现代创意 -->
+                    <div class="gallery-item" data-src="images/gallery-7-lg.jpg" data-filter="modern">
+                        <div class="frame">
+                            <img src="images/gallery-7.JPG">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>卡通人物</h3>
+                            <p>现代创意系列</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-src="images/gallery-8-lg.jpg" data-filter="modern">
+                        <div class="frame">
+                            <img src="images/gallery-8.JPG">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>城市地标</h3>
+                            <p>现代建筑系列</p>
+                        </div>
+                    </div>
+                    <!-- 更多作品... -->
+                </div>
+
+                <!-- 主题系列 -->
+                <div class="gallery-series">
+                    <div class="section-header">
+                        <h3 class="section-title">
+                            <span class="number-circle">1</span>
+                            主题系列
+                        </h3>
+                        <div class="section-divider"></div>
+                    </div>
+                    <div class="series-grid">
+                        <div class="series-item">
+                            <h4>1.十二生肖系列</h4>
+                            <img src="images/series-1 .JPG" width="250px">
+                            <img src="images/series-2.JPG" width="250px">
+                            <img src="images/series-3.JPG" width="250px">
+                            <img src="images/series-4.JPG" width="250px">
+                        </div>
+                        <div class="series-item">
+                            <h4>2.四大名著系列</h4>
+                            <img src="images/gallery-4.JPG" width="250px">
+                            <img src="images/series-5.JPG" width="250px">
+                            <img src="images/series-6.JPG" width="250px">
+                            <img src="images/series-7.JPG" width="250px">
+                        </div>
+                        <div class="series-item">
+                            <h4>3.二十四节气系列</h4>
+                            <img src="images/series-8.JPG" width="250px">
+                            <img src="images/series-9.JPG" width="250px">
+                            <img src="images/series-10.JPG" width="250px">
+                            <img src="images/series-11.PNG" width="250px">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 艺术家专题 -->
+                <div class="artist-spotlight">
+                    <div class="section-header">
+                        <h3 class="section-title">
+                            <span class="number-circle">2</span>
+                            艺术家专题
+                        </h3>
+                        <div class="section-divider"></div>
+                    </div>
+                    <div class="spotlight-content">
+                        <img src="images/artist-1.jpg" alt="艺术家专题">
+                        <div class="spotlight-text">
+                            <h4>张明远的传统人物系列</h4>
+                            <p>国家级传承人张明远先生精心创作的传统人物系列，展现了糖画艺术在人物塑造上的高超技艺。从历史人物到神话传说，每个作品都栩栩如生，充满故事性。</p>
+                            <a href="artists.html" class="btn">了解艺术家</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer>
+       <div class="container">
+           <div class="footer-column">
+               <h4>关于我们</h4>
+               <p>本网站致力于中国传统糖画艺术的保护、传承与推广，让更多人了解并喜爱这一独特的非物质文化遗产。</p>
+           </div>
+           <div class="footer-column">
+               <h4>快速链接</h4>
+               <ul>
+                   <li><a href="index.html">首页</a></li>
+                   <li><a href="about.html">关于糖画</a></li>
+               </ul>
+           </div>
+           <div class="footer-column">
+               <h4>更多内容</h4>
+               <ul>
+                   <li><a href="artists.html">传承人</a></li>
+                   <li><a href="gallery.html">作品展示</a></li>
+               </ul>
+           </div>
+           <div class="footer-column">
+               <h4>联系我们</h4>
+               <p><i class="fas fa-envelope"></i> info@sugar-art.com</p>
+               <p><i class="fas fa-phone"></i> 010-12345678</p>
+           </div>
+       </div>
+       <div class="copyright">
+           <p>&copy; 2025 甜蜜非遗 - 中国传统糖画艺术. 保留所有权利.</p>
+       </div>
+   </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+    <script>
+		document.addEventListener('DOMContentLoaded', function() {
+            // 初始化图片画廊
+            lightGallery(document.getElementById('lightgallery'), {
+                selector: '.gallery-item',
+                download: false,
+                counter: false
+            });
+            
+            // 画廊筛选功能
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // 更新按钮状态
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // 筛选作品
+                    const filter = this.dataset.filter;
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.dataset.filter === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
